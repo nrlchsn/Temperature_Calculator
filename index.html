@@ -1,9 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-<title>Test</title>
-</head>
-    <body>
-        <h1>Hello World !</h1>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Temperature Calculator</title>
+  </head>
+  <body>
+    <script src="js/script.js"></script>
+    <header>
+      <h1>Temperature Calculator</h1>
+    </header>
+    <section>
+      <div class="opening">
+        <p>Input the number in Celcius box, click Convert to calculate Celcius to Fahrenheit, and click Reverse to calculate Fahrenheit to Celcius. The Formulation will shows according to the button pressed (Convert/Reverse). To start again, click Reset
+        </p>
+      </div>
+      <div class="inputSection">
+        <label for="celciusInput">Celcius (°C)</label><br>
+        <input type="number" id="celciusInput" class="custom-input">
+        <p></p>
+        <label for="fahrenheit">Fahrenheit (°F)</label><br>
+        <input type="number" id="fahrenheit" class="custom-input"></input>
+        <p></p>
+      </div>
+
+      <div class="button">
+        <button id="convertCF" onclick="convert()">Convert</button>
+        <button id="resetBtn" onclick="reset()">Reset</button>
+        <button id="convertFC" onclick="convertFC()">Reverse</button>
+      </div>
+
+      <div class="explain">
+        <h2>The Formulation</h2>
+          <textarea type="text" id="explain" class="custom-input2" readonly></textarea>
+      </div>
+
+    </section>
+  </body>
 </html>

@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: beige;
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+section {
+    background-color: bisque;
+    width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.opening {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.inputSection {
+    text-align: center;
+}
+
+.custom-input {
+    width: 190px;
+    height: 20px;
+}
+
+.custom-input2 {
+    width: 225px;
+    height: 40px;
+}
+
+.button {
+    text-align: center;
+}
+
+.explain {
+    text-align: center;
+}
